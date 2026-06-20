@@ -29,6 +29,8 @@
 
     /* Environment types */
     "types": ["node"]
+
+
   },
   "include": ["src", "type.d.ts", "express.d.ts"],
   "exclude": ["lib", "node_modules", "dist"]
