@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6fe5a9d-b82f-4f3d-a4ea-49faf03a838a" name="Changes" comment="Add all the fixes for the project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="169" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/College_Dashboard" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lucky-arya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lucky-arya/College_Dashboard.git&quot;,
+    &quot;accountId&quot;: &quot;435012ce-4f73-464f-b35e-443190535d72&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000749238356" />
+      <entry key="MS500" value="1.0379708317874436" />
+      <entry key="S2" value="1.8372724019704207" />
+      <entry key="S5" value="4.083311251470341" />
+      <entry key="S10" value="6.69580138613655" />
+      <entry key="S30" value="10.21283320706875" />
+      <entry key="S60" value="11.493934818385132" />
+      <entry key="M2" value="12.24583204138994" />
+      <entry key="M5" value="12.92546840489034" />
+      <entry key="M10" value="13.334937567736956" />
+      <entry key="M15" value="13.5191129269263" />
+      <entry key="M30" value="13.74392836854172" />
+      <entry key="H1" value="14.535778110916183" />
+      <entry key="H2" value="20.986339755299866" />
+      <entry key="H4" value="36.81558913131754" />
+      <entry key="D1" value="74.83231125854714" />
+      <entry key="W1" value="85.95746677969466" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.6128181348940063E-124" />
+      <entry key="S5" value="3.0411242145435954E-50" />
+      <entry key="S10" value="1.7438819382468511E-25" />
+      <entry key="S30" value="5.586918806195814E-9" />
+      <entry key="S60" value="7.47456942318139E-5" />
+      <entry key="M2" value="0.008645559220305753" />
+      <entry key="M5" value="0.14952617917838879" />
+      <entry key="M10" value="0.3866861507455223" />
+      <entry key="M15" value="0.5307692392004049" />
+      <entry key="M30" value="0.7285391130202994" />
+      <entry key="H1" value="0.8535450269436872" />
+      <entry key="H2" value="0.9238750061256595" />
+      <entry key="H4" value="0.961184168682391" />
+      <entry key="D1" value="0.9934235127698005" />
+      <entry key="W1" value="0.9990578430225842" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8705506341783917" />
+      <entry key="MS500" value="1.0102027618577967" />
+      <entry key="S2" value="1.8272473510498894" />
+      <entry key="S5" value="4.075463154860332" />
+      <entry key="S10" value="6.689682588246724" />
+      <entry key="S30" value="10.209825930051396" />
+      <entry key="S60" value="11.492329598548249" />
+      <entry key="M2" value="12.25349757537593" />
+      <entry key="M5" value="13.07400216802885" />
+      <entry key="M10" value="13.720632363213907" />
+      <entry key="M15" value="14.049021299395392" />
+      <entry key="M30" value="14.471899930777399" />
+      <entry key="H1" value="15.38899444814483" />
+      <entry key="H2" value="21.910030495596178" />
+      <entry key="H4" value="37.77666835360287" />
+      <entry key="D1" value="75.82571297250058" />
+      <entry key="W1" value="86.95652133627517" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3FNpqtoQo2V5KZzckGURukWhXTa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "E:/College_Dashboard",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "E:\\College_Dashboard\\College_Dashboard\\classroom-frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6fe5a9d-b82f-4f3d-a4ea-49faf03a838a" name="Changes" comment="" />
+      <created>1781925578976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781925578976</updated>
+      <workItem from="1781925582884" duration="5866000" />
+      <workItem from="1781958114384" duration="95000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add all the fixes for the project">
+      <option name="closed" value="true" />
+      <created>1781956760455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781956760456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add all the fixes for the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all the fixes for the project" />
+  </component>
+</project>

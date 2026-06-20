@@ -1,0 +1,62 @@
+# ==========================================
+# Monorepo Sub-Folders (PERN Stack)
+# ==========================================
+
+# Frontend specific overrides (React/Vite/Next.js)
+classroom-frontend/node_modules/
+classroom-frontend/dist/
+classroom-frontend/dist-ssr/
+classroom-frontend/build/
+classroom-frontend/.next/
+classroom-frontend/out/
+
+# Backend specific overrides (Node.js/Express)
+classroom-backend/node_modules/
+classroom-backend/dist/
+classroom-backend/build/
+
+# PostgreSQL data (if running local DB clusters inside the project)
+**/pg_data/
+**/postgres_data/
+
+# Global fallback for nested dependencies
+node_modules/
+dist/
+dist-ssr/
+
+# ==========================================
+# Logs
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+
+# Database specific secrets
+**/.pgpass
+
+# ==========================================
+# Editor & OS Files
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
