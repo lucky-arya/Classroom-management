@@ -1,7 +1,9 @@
+import 'dotenv/config'
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { inArray } from "drizzle-orm";
+
 
 import { db } from "../src/db";
 import {
