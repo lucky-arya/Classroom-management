@@ -1,0 +1,52 @@
+services:
+  # -------------------------------------------------------------
+  # 1. API Backend Web Service (Node.js)
+  # -------------------------------------------------------------
+  - type: web
+    name: classroom-backend
+    env: node
+    plan: free
+    rootDir: classroom-backend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: DATABASE_URL
+        sync: false
+        placeholder: "postgresql://username:password@hostname/dbname?sslmode=require"
+      - key: BETTER_AUTH_SECRET
+        generateValue: true
+      - key: BETTER_AUTH_URL
+        sync: false
+        placeholder: "https://classroom-backend.onrender.com"
+      - key: FRONTEND_URL
+        sync: false
+        placeholder: "https://classroom-frontend.onrender.com"
+
+  # -------------------------------------------------------------
+  # 2. Frontend Client Dashboard (Static Site)
+  # -------------------------------------------------------------
+  - type: web
+    name: classroom-frontend
+    env: static
+    plan: free
+    rootDir: classroom-frontend
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    routes:
+      # Support client-side routing for Single Page Applications (SPA)
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      # Build-time environment variables for Vite
+      - key: VITE_BACKEND_BASE_URL
+        sync: false
+        placeholder: "https://classroom-backend.onrender.com/api"
+      - key: VITE_CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: VITE_CLOUDINARY_UPLOAD_PRESET
+        sync: false
+      - key: VITE_CLOUDINARY_UPLOAD_URL
+        sync: false
