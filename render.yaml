@@ -29,11 +29,11 @@ services:
   # -------------------------------------------------------------
   - type: web
     name: classroom-frontend
-    env: static
+    runtime: static
     plan: free
     rootDir: classroom-frontend
     buildCommand: npm install && npm run build
-    publishDir: dist
+    staticPublishPath: dist
     routes:
       # Support client-side routing for Single Page Applications (SPA)
       - type: rewrite
