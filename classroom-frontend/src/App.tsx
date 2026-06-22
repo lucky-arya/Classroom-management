@@ -59,6 +59,16 @@ function App() {
                 syncWithLocation: true,
                 warnWhenUnsavedChanges: true,
                 projectId: "kkWuv7-GgBIfw-P8CGy0",
+                title: {
+                  text: "Dashboard",
+                  icon: (
+                    <img
+                      src="/logo.png"
+                      alt="Logo"
+                      className="w-8 h-8 object-contain"
+                    />
+                  ),
+                },
               }}
               resources={[
                 {
