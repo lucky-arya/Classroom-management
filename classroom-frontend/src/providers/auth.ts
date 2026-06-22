@@ -117,7 +117,19 @@ export const authProvider: AuthProvider = {
     return { error };
   },
   check: async () => {
-    const user = localStorage.getItem("user");
+    let user = localStorage.getItem("user");
+
+    if (!user) {
+      try {
+        const { data: sessionData } = await authClient.getSession();
+        if (sessionData?.user) {
+          localStorage.setItem("user", JSON.stringify(sessionData.user));
+          user = JSON.stringify(sessionData.user);
+        }
+      } catch (error) {
+        console.error("Failed to sync active session:", error);
+      }
+    }
 
     if (user) {
       return {
@@ -159,5 +171,66 @@ export const authProvider: AuthProvider = {
       role: parsedUser.role,
       imageCldPubId: parsedUser.imageCldPubId,
     };
+  },
+  forgotPassword: async ({ email }) => {
+    try {
+      const { error } = await authClient.requestPasswordReset({
+        email,
+        redirectTo: window.location.origin + "/reset-password",
+      });
+
+      if (error) {
+        return {
+          success: false,
+          error: {
+            name: "ForgotPasswordError",
+            message: error.message || "Failed to request password reset.",
+          },
+        };
+      }
+
+      return {
+        success: true,
+      };
+    } catch (error: any) {
+      return {
+        success: false,
+        error: {
+          name: "ForgotPasswordError",
+          message: error.message || "An unexpected error occurred.",
+        },
+      };
+    }
+  },
+  updatePassword: async ({ password, token }) => {
+    try {
+      const { error } = await authClient.resetPassword({
+        newPassword: password,
+        token,
+      });
+
+      if (error) {
+        return {
+          success: false,
+          error: {
+            name: "ResetPasswordError",
+            message: error.message || "Failed to reset password.",
+          },
+        };
+      }
+
+      return {
+        success: true,
+        redirectTo: "/login",
+      };
+    } catch (error: any) {
+      return {
+        success: false,
+        error: {
+          name: "ResetPasswordError",
+          message: error.message || "An unexpected error occurred.",
+        },
+      };
+    }
   },
 };

@@ -143,13 +143,13 @@ export const SignInForm = () => {
                 {isLoggingIn ? "Signing in..." : "Sign in"}
               </Button>
 
-              <div className="split">
+              {/* <div className="split">
                 <Separator />
                 <span>or</span>
                 <Separator />
-              </div>
+              </div> */}
 
-              <div className="social">
+              {/* <div className="social">
                 <p>Sign in using</p>
                 <div className="social-grid">
                   <Button
@@ -193,7 +193,7 @@ export const SignInForm = () => {
                     <div>GitHub</div>
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </form>
           </Form>
         </CardContent>
