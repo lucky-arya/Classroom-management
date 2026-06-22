@@ -9,7 +9,7 @@
     "moduleResolution": "NodeNext",
 
     /* Project structure */
-    "rootDir": ".",
+    "rootDir": "src",
     "outDir": "dist",
 
     /* Type safety */
